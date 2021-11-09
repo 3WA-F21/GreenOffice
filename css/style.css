@@ -1,0 +1,105 @@
+/* 
+    Author : Carlos Alognon
+    Github: 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.text-uppercase,
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url(../images/fond.png);
+    margin: 0;
+}
+
+.main {
+    width: 700px;
+    margin: auto;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+/* Header style */
+
+.header .header-image {
+    width: 130px;
+    height: 91px;
+    float: left;
+}
+
+.header .header-nav {
+    height: 91px;
+    background-color: #B8CB21;
+}
+
+.header .header-nav a {
+    float: right;
+    padding: 35px 20px;
+    color: #000000;
+}
+
+
+/* Main style */
+
+main {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    color: #B8CB21;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.main-section-article {
+    margin-top: 10px;
+}
+
+.main-section-article .article-box img {
+    width: 215px;
+    float: left;
+    margin-right: 10px;
+}
+
+.btn {
+    margin-left: 85%;
+    color: #FFFFFF;
+    background-color: #B8CB21;
+    border: none;
+    padding: 10px;
+}
+
+.both {
+    clear: both;
+}
+
+
+/* Footer style */
+
+.footer {
+    text-align: center;
+}
+
+.footer .footer-image {
+    margin-top: 10px;
+}
+
+.footer-image img {
+    width: 30px;
+}
+
+.footer-text p {
+    font-size: .8em;
+    margin: 2px;
+}
+
+.footer-text p a {
+    color: #7c0655;
+}
